@@ -1,15 +1,23 @@
-# Title of Project: [PROJECT_TITLE_HERE]
+# Title of Project: Breast Cancer Classification and Detection through Advanced Pre-processing and Deep learning Techniques
 
 ## Team Members:
-1. [TEAM_MEMBER_1_NAME]
-2. [TEAM_MEMBER_2_NAME]
-3. [TEAM_MEMBER_3_NAME]
-4. [TEAM_MEMBER_4_NAME]
+1. Sajal Bhilatia (2100290100143, CSE-C)
+2. Rachit Verma (2100290100124, CSE-B)
+3. Harsh Rastogi (2200290109006, CSE-A)
 
 ## Steps for Execution:
-1. [STEP 1]
-2. [STEP 2]
-   (Add more steps as needed)
+1. Clone the repository (git clone https://github.com/cse-kiet/PCSE25-55.git)
+2. Set up the Python environment (Use Python 3.8+ (preferably in a virtual environment))
+3. Install dependencies (pip install -r requirements.txt)
+4. Download and organize the dataset (Place mammogram images under Dataset/Benign/ and Dataset/Malignant/)
+5. Run image preprocessing
+   (Execute preprocessing.ipynb or preprocess.py to:
+   Correct orientation
+   Remove pectoral muscle
+   Apply CLAHE
+   Remove noise and segment ROI)
+6. Train models (Open and run train_models.ipynb to train VGG16, ResNet50, MobileNet, and Custom CNN)
+7. Evaluate results (Use evaluation.ipynb to compare model performance using accuracy, precision, recall, F1-score)
 
 ## Checklist:
 1. Final Project Report
