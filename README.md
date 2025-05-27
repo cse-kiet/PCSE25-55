@@ -18,6 +18,8 @@
    Remove noise and segment ROI)
 6. Train models (Open and run train_models.ipynb to train VGG16, ResNet50, MobileNet, and Custom CNN)
 7. Evaluate results (Use evaluation.ipynb to compare model performance using accuracy, precision, recall, F1-score)
+   DATASET USED- https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset
+   
 
 ## Checklist:
 1. Final Project Report
